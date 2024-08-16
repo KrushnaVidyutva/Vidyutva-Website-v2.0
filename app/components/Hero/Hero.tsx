@@ -3,7 +3,7 @@ import { Link } from "@remix-run/react"
 const Hero = () => {
     return (
         <div className="relative overflow-hidden">
-            <img src="/images/bg/Hero-bg.jpg" alt="loading.." className=" absolute -z-10" />
+            <img src="/images/bg/banner.png" alt="loading.." className=" absolute -z-10" />
             <div className="py-[9rem]">
                 <div className="bg-white min-w-[45rem] w-[50%] px-[3rem] py-[4rem] flex-col rounded-tr-[1.5rem] rounded-br-[1.5rem] grid gap-8">
                     <h1 className="font-semibold text-6xl ">India's<br />EV charging<br />platform</h1>

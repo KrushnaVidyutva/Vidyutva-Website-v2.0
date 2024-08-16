@@ -24,8 +24,8 @@ const ChargingNetwork = () => {
 
                 <div className="pt-[3rem] w-[100%] relative">
                     <div className="flex items-center gap-[4rem]">
-                        <div className="w-[100%] max-w-[40rem] overflow-hidden aspect-[5/6] rounded-[2rem]">
-                            <img src="/images/network.webp" alt="Loading..." />
+                        <div className="w-[100%] max-w-[40rem] overflow-hidden rounded-[2rem]">
+                            <img src="/images/charging_network.jpg" alt="Loading..." />
                         </div>
                     </div>
                     <div className="absolute right-0 top-[20%] w-[70%]">

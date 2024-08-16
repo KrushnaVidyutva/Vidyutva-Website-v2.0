@@ -99,7 +99,7 @@ const AppLayout = () => {
                     </div>
                 </div>
                 <div className="col-span-1 flex items-end justify-center">
-                    <img src="/images/app.webp" alt="Loading..." className="w-[24rem] max-w-[30rem] " />
+                    <img src="/images/mobile_app.png" alt="Loading..." className="w-[24rem] max-w-[30rem] " />
                 </div>
             </div>
         </div>

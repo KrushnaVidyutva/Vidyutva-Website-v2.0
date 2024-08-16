@@ -29,7 +29,7 @@ const Blog = () => {
                     </div>
                     <div className="rounded-[1.5rem] p-5 bg-[#d9d9d99c] col-span-1 flex flex-col gap-6">
                         <div className="w-[100%] max-h-[12rem] rounded-[1.25rem] overflow-hidden">
-                            <img src="/images/blog/blog-01.jpg" alt="Loading..." className="transition-all duration-300 ease-in-out imgTrns" />
+                            <img src="/images/blog/blog-02.jpg" alt="Loading..." className="transition-all duration-300 ease-in-out imgTrns" />
                         </div>
                         <p className="font-medium text-sm text-gray-700">7 min read</p>
                         <p className="font-medium text-2xl text-gray-900">Breaking the queue: Solutions for a better charging experience</p>
@@ -37,7 +37,7 @@ const Blog = () => {
                     </div>
                     <div className="rounded-[1.5rem] p-5 bg-[#d9d9d99c] col-span-1 flex flex-col gap-6">
                         <div className="w-[100%] max-h-[12rem] rounded-[1.25rem] overflow-hidden">
-                            <img src="/images/blog/blog-01.jpg" alt="Loading..." className="transition-all duration-300 ease-in-out imgTrns" />
+                            <img src="/images/blog/blog-03.jpg" alt="Loading..." className="transition-all duration-300 ease-in-out imgTrns" />
                         </div>
                         <p className="font-medium text-sm text-gray-700">7 min read</p>
                         <p className="font-medium text-2xl text-gray-900">Breaking the queue: Solutions for a better charging experience</p>

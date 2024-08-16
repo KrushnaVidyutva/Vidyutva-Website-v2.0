@@ -71,3 +71,22 @@
 .imgTrns:hover {
     transform: scale(1.2);
 }
+
+
+.hero {
+    width: 100%;
+    height: 500px;
+    background-image: url(/images/bg/Bg_banner.jpg);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.heroh2 {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 1)30%, rgba(0, 0, 0, .7)60%, rgba(0, 0, 0, .4)70%, rgba(0, 0, 0, 0)100%);
+    position: absolute;
+}
