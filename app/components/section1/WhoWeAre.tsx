@@ -31,7 +31,7 @@ const WhoWeAre = () => {
     // }, []);
 
     return (
-        <div  className='transition-[background-color] duration-500 ease-in-out'>
+        <div className='transition-[background-color] duration-500 ease-in-out'>
             <div className="px-[5%]">
                 <div className="flex flex-col items-center gap-[5rem]">
                     <div className="text-center w-[100%] max-w-[48rem]">
@@ -53,7 +53,7 @@ const WhoWeAre = () => {
                                 </div>
                                 <p className="font-semibold text-lg">App downloads</p>
                             </div>
-                            <p className="font-medium text-base">Indian drivers across every make and model use the Chargefox app to charge their vehicle.</p>
+                            <p className="font-medium text-base">Indian drivers across every make and model use the Vidyutva app to charge their vehicle.</p>
                         </div>
 
                         <div className="flex flex-col items-center text-center gap-5">
@@ -73,7 +73,7 @@ const WhoWeAre = () => {
                                 </div>
                                 <p className="font-semibold text-lg">Indian</p>
                             </div>
-                            <p className="font-medium text-base">Chargefox is owned and operated by India’s largest network of roadside assist and insurance providers.</p>
+                            <p className="font-medium text-base">Vidyutva is owned and operated by India’s largest network of roadside assist and insurance providers.</p>
                         </div>
 
                         <div className="flex flex-col items-center text-center gap-5">
@@ -83,7 +83,7 @@ const WhoWeAre = () => {
                                 </div>
                                 <p className="font-semibold text-lg">Chargers daily</p>
                             </div>
-                            <p className="font-medium text-base">Every day thousands of drivers across Australia charge their vehicle on the Chargefox network</p>
+                            <p className="font-medium text-base">Every day thousands of drivers across India charge their vehicle on the Vidyutva network</p>
                         </div>
                     </div>
                 </div>

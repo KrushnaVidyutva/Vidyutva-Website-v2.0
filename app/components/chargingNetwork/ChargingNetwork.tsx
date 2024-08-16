@@ -8,7 +8,7 @@ const ChargingNetwork = () => {
                     <div className="flex flex-col gap-8">
                         <div className="font-semibold text-base">Charging Network</div>
                         <h1 className="font-semibold text-5xl">India’s largest network</h1>
-                        <p className="font-normal text-lg text-[#1d344f]">The Vidyutva platform brings together chargers operated by businesses and governments all over Australia, giving you access to the largest and fastest growing EV charging network - all in one place.</p>
+                        <p className="font-normal text-lg text-[#1d344f]">The Vidyutva platform brings together chargers operated by businesses and governments all over India, giving you access to the largest and fastest growing EV charging network - all in one place.</p>
                         <div className="flex items-center flex-wrap">
                             <Link to={"#"} className="py-3 px-6 flex items-center rounded-[3.125rem] border border-zinc-800 text-center gap-[.8rem] transition-[bg] duration-300 ease-in-out hover:bg-[#e8ebed] hover:border-[#e8ebed]">
                                 <span className="text-base font-normal">See the network</span>

@@ -6,7 +6,7 @@ const Hero = () => {
             <img src="/images/bg/banner.png" alt="loading.." className=" absolute -z-10" />
             <div className="py-[9rem]">
                 <div className="bg-white min-w-[45rem] w-[50%] px-[3rem] py-[4rem] flex-col rounded-tr-[1.5rem] rounded-br-[1.5rem] grid gap-8">
-                    <h1 className="font-semibold text-6xl ">India's<br />EV charging<br />platform</h1>
+                    <h1 className="font-semibold text-6xl ">India's  <br />reliable EV<br />charging platform</h1>
                     <div className="w-[100%] max-w-[35rem] ml-0">
                         <p className="text-xl mb-0">
                             We make hosting and managing chargers easy for organisations and destinations, and partner with fleet managers, vehicle manufacturers and hire-car providers to keep drivers moving.

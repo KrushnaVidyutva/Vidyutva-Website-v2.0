@@ -47,7 +47,7 @@ const footer = () => {
         <div className='flex justify-between w-[100%] mb-20'>
           <div className='w-[45%]'>
             <h1 className='text-[#FF914D] font-semibold text-[1.75rem]'>Join our newsletter</h1>
-            <p className='text-sm text-[#1d344f]'>Subscribe to stay up-to-date on all the latest from Chargefox.</p>
+            <p className='text-sm text-[#1d344f]'>Subscribe to stay up-to-date on all the latest from Vidyutva.</p>
           </div>
           <div className="grid grid-cols-4 gap-4 w-[50%]">
             <input

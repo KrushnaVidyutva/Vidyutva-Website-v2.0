@@ -6,10 +6,10 @@ const Services = () => {
             <div className="grid grid-cols-2 gap-10 items-start">
                 <div className="col-span-1">
                     <h2 className="font-bold text-base">Services</h2>
-                    <h1 className="pt-4 font-semibold text-5xl">The leading provider of charger & electric vehicle management solutions</h1>
+                    <h1 className="pt-4 font-semibold text-5xl">The provider of reliable chargers and charging management solution</h1>
                 </div>
                 <div className="col-span-1 flex flex-col gap-8">
-                    <p className="text-lg text-[#2f3433]">Chargefox works with hundreds of companies and government agencies across Australia to provide EV charger and vehicle management solutions, and to keep staff and customers charged.</p>
+                    <p className="text-lg text-[#2f3433]">Vidyuyva works with companies and government agencies across India to provide EV charger and vehicle management solutions, and to keep staff and customers charged.</p>
                     <div className="grid grid-rows-2 ">
                         <div className="row-span-1 grid grid-cols-2 gap-6">
                             <Link to="#" className="col-span-1">
