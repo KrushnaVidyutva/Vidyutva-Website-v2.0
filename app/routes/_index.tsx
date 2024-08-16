@@ -16,7 +16,7 @@ import Services from "~/components/services/Services";
 export const meta: MetaFunction = () => {
   return [
     { title: "Vidyutva" },
-    { name: "description", content: "Welcome to Remix!" },
+    { name: "description", content: "Charging in Bhubaneswar" },
   ];
 };
 
