@@ -76,7 +76,7 @@ const AppLayout = () => {
                     </div>
 
                     <div className="flex flex-wrap gap-4">
-                        <Link to="#" target="_blank" className="flex justify-center items-center gap-3 rounded-[3.125rem] text-[#00a181] bg-white text-center py-[.75rem] px-[1.5rem] transition-all duration-300 ease-in hover:bg-[#00a181a5] hover:text-white border border-white">
+                        {/* <Link to="#" target="_blank" className="flex justify-center items-center gap-3 rounded-[3.125rem] text-[#00a181] bg-white text-center py-[.75rem] px-[1.5rem] transition-all duration-300 ease-in hover:bg-[#00a181a5] hover:text-white border border-white">
                             <div className="w-[2rem] h-[2rem]">
                                 <div className="flex justify-center items-center">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 25 24" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img">
@@ -85,7 +85,7 @@ const AppLayout = () => {
                                 </div>
                             </div>
                             <div className="font-semibold text-base">Download on iOS</div>
-                        </Link>
+                        </Link> */}
                         <Link to="#" target="_blank" className="flex justify-center items-center gap-3 rounded-[3.125rem] text-[#00a181] bg-white text-center py-[.75rem] px-[1.5rem] transition-all duration-300 ease-in hover:bg-[#00a181a5] hover:text-white border border-white">
                             <div className="w-[2rem] h-[2rem]">
                                 <div className="flex justify-center items-center">

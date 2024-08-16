@@ -15,6 +15,7 @@
     .animation-delay-3 {
         animation-delay: -3s;
     }
+
 }
 
 @keyframes scrollX {

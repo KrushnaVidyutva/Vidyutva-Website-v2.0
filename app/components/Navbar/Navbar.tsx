@@ -1,15 +1,21 @@
 import { Link } from '@remix-run/react'
 const Navbar = () => {
     return (
-        <nav className="fixed top-0 left-0 bg-white rounded-bl-[20px] rounded-br-[20px] min-h-[5.5rem] w-[100%] flex items-center justify-between px-[5%] z-50">
+        <nav className="fixed top-0 left-0 bg-white rounded-bl-[20px] rounded-br-[20px] min-h-[5.5rem] w-[100%] flex items-center justify-between px-[5%] z-40">
             <Link to={"/"}>
                 <img src="/images/Logo/Vidyutvalogo.png" alt="Loading...." className="h-[100px] w-[110px]" />
             </Link>
 
             <div className="uppercase flex justify-between items-center w-96">
-                <Link to={"#"} className="px-[1rem] py-[.5rem] font-medium font-sans">segments</Link>
-                <Link to={"#"} className="px-[1rem] py-[.5rem] font-medium font-sans ">products</Link>
-                <Link to={"#"} className="px-[1rem] py-[.5rem] font-medium font-sans ">about us</Link>
+                <Link to={"#"} className="px-[1rem] py-[.5rem] font-medium font-sans hover:border-b hover:border-[#FF914D] hover:text-[#FF914D] transition-all duration-300 ease-out group">
+                    segments
+                </Link>
+                <Link to={"#"} className="px-[1rem] py-[.5rem] font-medium font-sans hover:border-b hover:border-[#FF914D] hover:text-[#FF914D] transition-all duration-300 ease-out group">
+                    products
+                </Link>
+                <Link to={"#"} className="px-[1rem] py-[.5rem] font-medium font-sans hover:border-b hover:border-[#FF914D] hover:text-[#FF914D] transition-all duration-300 ease-out group">
+                    about us
+                </Link>
             </div>
 
             <div className="flex justify-center items-center">
