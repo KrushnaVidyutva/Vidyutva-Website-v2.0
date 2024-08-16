@@ -32,7 +32,7 @@ const HomeAbout = () => {
 
     return (
         <>
-            <div  className='transition-[background-color] duration-500 ease-in-out'>
+            <div className='transition-[background-color] duration-500 ease-in-out'>
                 <div className='px-[5%]'>
                     <div className='grid grid-cols-3 w-[100%] py-[9rem] gap-8'>
                         <div className='col-span-1'>
@@ -41,7 +41,7 @@ const HomeAbout = () => {
                             </div>
                         </div>
                         <div className='col-span-2 '>
-                            <h4 className='font-bold text-3xl py-4'>Every day thousands of drivers charge their vehicle on the Vidyutva network - the largest and fastest growing EV charging network in India.</h4>
+                            {/* <h4 className='font-bold text-3xl py-4'>Every day thousands of drivers charge their vehicle on the Vidyutva network - the largest and fastest growing EV charging network in India.</h4> */}
                             <p className='font-medium text-base py-4'>We're owned and operated by the NRMA, RACV, RACQ, RAA, RAC and RACT. The same companies supporting drivers for over 100 years.</p>
                             <Link to="#" >
                                 <button className='flex justify-between items-center gap-3 border border-white px-6 py-3 font-semibold text-base rounded-full hover:bg-gray-100 hover:border-gray-100 hover:text-gray-800 transition-all duration-300 ease-in-out'>
