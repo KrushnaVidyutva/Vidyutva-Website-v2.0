@@ -3,12 +3,12 @@ import { Link } from "@remix-run/react"
 const Services = () => {
     return (
         <div className="pt-[3rem] pb-[7rem] px-[5%]">
-            <div className="grid grid-cols-2 gap-10 items-start">
-                <div className="col-span-1">
+            <div className="min-[945px]:grid min-[945px]:grid-cols-2 max-[945px]:flex max-[945px]:flex-col gap-10 items-start">
+                <div className="min-[945px]:col-span-1">
                     <h2 className="font-bold text-base">Services</h2>
                     <h1 className="pt-4 font-semibold text-5xl">The provider of reliable chargers and charging management solution</h1>
                 </div>
-                <div className="col-span-1 flex flex-col gap-8">
+                <div className="min-[945px]:col-span-1  flex flex-col gap-8">
                     <p className="text-lg text-[#2f3433]">Vidyuyva works with companies and government agencies across India to provide EV charger and vehicle management solutions, and to keep staff and customers charged.</p>
                     <div className="grid grid-rows-2 ">
                         <div className="row-span-1 grid grid-cols-2 gap-6">

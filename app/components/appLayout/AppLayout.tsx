@@ -2,9 +2,9 @@ import { Link } from "@remix-run/react"
 
 const AppLayout = () => {
     return (
-        <div className="px-[5%] py-[4rem] ">
-            <div className="grid grid-cols-2 gap-[5rem] px-[3.75rem] pt-[3.75rem] rounded-[1.5rem] bg-[#00a181] text-white">
-                <div className="col-span-1 flex flex-col items-start gap-6 mb-[3.75rem]">
+        <div className="px-[5%] py-[4rem] max-[556px]:px-[3%]">
+            <div className="grid min-[945px]:grid-cols-2 max-[945px]:flex  max-[945px]:flex-col gap-[5rem] px-[3.75rem] max-[556px]:px-[1.5rem] pt-[3.75rem] rounded-[1.5rem] bg-[#00a181] text-white">
+                <div className="min-[945px]:col-span-1 flex flex-col items-start gap-6 mb-[3.75rem]">
                     <h2 className="font-semibold text-lg">Vidyutva app</h2>
                     <h1 className="font-semibold text-5xl">Find, Charge, Pay, Drive.</h1>
                     <p className="font-medium text-lg">Download the app on the Apple App Store or Google Play Store and start charging in minutes.</p>
@@ -98,8 +98,8 @@ const AppLayout = () => {
                         </Link>
                     </div>
                 </div>
-                <div className="col-span-1 flex items-end justify-center">
-                    <img src="/images/mobile_app.png" alt="Loading..." className="w-[24rem] max-w-[30rem] " />
+                <div className="min-[945px]:col-span-1 flex items-end justify-center">
+                    <img src="/images/mobile_app.png" alt="Loading..." className="w-[24rem] max-w-[30rem] max-[556px]:w-[15rem] " />
                 </div>
             </div>
         </div>

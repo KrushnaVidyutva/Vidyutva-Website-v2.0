@@ -6,14 +6,14 @@ const Navbar = () => {
                 <img src="/images/Logo/Vidyutvalogo.png" alt="Loading...." className="h-[100px] w-[110px]" />
             </Link>
 
-            <div className="uppercase flex justify-between items-center w-96">
-                <Link to={"#"} className="px-[1rem] py-[.5rem] font-medium font-sans hover:border-b hover:border-[#FF914D] hover:text-[#FF914D] transition-all duration-300 ease-out group">
+            <div className="uppercase flex justify-between items-center w-96 max-[840px]:hidden">
+                <Link to={"#"} className="px-[1rem] py-[.5rem] font-medium font-sans hover:border-b hover:border-[#00a181] hover:text-[#00a181] transition-all duration-300 ease-out group">
                     segments
                 </Link>
-                <Link to={"#"} className="px-[1rem] py-[.5rem] font-medium font-sans hover:border-b hover:border-[#FF914D] hover:text-[#FF914D] transition-all duration-300 ease-out group">
+                <Link to={"#"} className="px-[1rem] py-[.5rem] font-medium font-sans hover:border-b hover:border-[#00a181] hover:text-[#00a181] transition-all duration-300 ease-out group">
                     products
                 </Link>
-                <Link to={"#"} className="px-[1rem] py-[.5rem] font-medium font-sans hover:border-b hover:border-[#FF914D] hover:text-[#FF914D] transition-all duration-300 ease-out group">
+                <Link to={"#"} className="px-[1rem] py-[.5rem] font-medium font-sans hover:border-b hover:border-[#00a181] hover:text-[#00a181] transition-all duration-300 ease-out group">
                     about us
                 </Link>
             </div>

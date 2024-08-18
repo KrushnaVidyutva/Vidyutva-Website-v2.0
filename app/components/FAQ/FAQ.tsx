@@ -3,9 +3,9 @@ import Questions from "./Questions"
 const FAQ = () => {
 
     return (
-        <div className="px-[5%] py-[7rem]">
-            <div className="bg-[#00a181aa] rounded-[1.5rem] px-[3.75rem] py-[6.25rem] grid items-start grid-cols-9 gap-[5rem]">
-                <div className="col-span-4 flex flex-col items-start gap-6 text-white">
+        <div className="px-[5%] pb-[7rem]">
+            <div className="bg-[#00a181aa] rounded-[1.5rem] px-[3.75rem] py-[6.25rem] min-[950px]:grid items-start min-[950px]:grid-cols-9 max-[950px]:flex max-[950px]:flex-col gap-[5rem]">
+                <div className="min-[768px]:col-span-4 flex flex-col items-start gap-6 text-white">
                     <h2 className="font-semibold text-5xl">Got questions?</h2>
                     <p className="text-lg font-normal">Thinking about getting into your first EV or maybe you manage a fleet of hundreds. You’ve got questions and we’ve got answers.</p>
                     <div className="flex items-end flex-wrap gap-4">
@@ -19,7 +19,7 @@ const FAQ = () => {
                         </Link>
                     </div>
                 </div>
-                <div className="col-span-5 flex flex-col text-white">
+                <div className="min-[950px]:col-span-5 flex flex-col text-white ">
                     <Questions />
                     <Questions />
                     <Questions />

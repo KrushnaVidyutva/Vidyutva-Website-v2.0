@@ -22,16 +22,16 @@ const ChargingNetwork = () => {
                     </div>
                 </div>
 
-                <div className="pt-[3rem] w-[100%] relative">
-                    <div className="flex items-center gap-[4rem]">
-                        <div className="w-[100%] max-w-[40rem] overflow-hidden rounded-[2rem]">
-                            <img src="/images/charging_network.jpg" alt="Loading..." />
+                <div className="pt-[3rem] w-[100%] cn-main">
+                    <div className="flex items-center">
+                        <div className="cn-img overflow-hidden rounded-[2rem]">
+                            <img src="/images/charging_network.jpg" alt="Loading..." className="rounded-[2rem]" />
                         </div>
                     </div>
-                    <div className="absolute right-0 top-[20%] w-[70%]">
+                    <div className="cn-cards">
                         <div className="grid grid-rows-2 gap-8">
-                            <div className="grid grid-cols-2 row-span-1 gap-8">
-                                <div className="bg-[#e8ebed] rounded-[1.25rem] overflow-hidden w-[23rem] col-span-1">
+                            <div className="grid grid-cols-2 max-[860px]:grid-cols-1 row-span-1 gap-8">
+                                <div className="bg-[#e8ebed] rounded-[1.25rem] overflow-hidden w-[23rem] max-[450px]:w-[100%] col-span-1">
                                     <div className="flex flex-col gap-6 p-6">
                                         <div className="flex w-8 h-8 ml-2">
                                             <img src="https://cdn.prod.website-files.com/651f461dff79ef9092702935/6527f7fcfa7bd4d2e99860fe_clock-icon-orange.png" loading="lazy" alt="orange clock icon" />
@@ -46,7 +46,7 @@ const ChargingNetwork = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="bg-[#e8ebed] rounded-[1.25rem] overflow-hidden w-[23rem] h-[100%] col-span-1">
+                                <div className="bg-[#e8ebed] rounded-[1.25rem] overflow-hidden w-[23rem] max-[450px]:w-[100%] h-[100%] col-span-1">
                                     <div className="flex flex-col gap-6 p-6">
                                         <div className="flex w-8 h-8 ml-2">
                                             <img src="https://cdn.prod.website-files.com/651f461dff79ef9092702935/6527f7fbd7301efb154f0873_check-icon-orange.png" loading="lazy" alt="orange check icon" />
@@ -63,8 +63,8 @@ const ChargingNetwork = () => {
                                 </div>
                             </div>
 
-                            <div className="grid grid-cols-2 row-span-1 gap-8">
-                                <div className="bg-[#e8ebed] rounded-[1.25rem] overflow-hidden w-[23rem] col-span-1">
+                            <div className="grid grid-cols-2 max-[860px]:grid-cols-1 row-span-1 gap-8">
+                                <div className="bg-[#e8ebed] rounded-[1.25rem] overflow-hidden w-[23rem] max-[450px]:w-[100%] col-span-1">
                                     <div className="flex flex-col gap-6 p-6">
                                         <div className="flex w-8 h-8 ml-2">
                                             <img src="https://cdn.prod.website-files.com/651f461dff79ef9092702935/6527f7fcb395c60c423f1042_venn-icon-orange.png" loading="lazy" alt="orange venn icon" />
@@ -79,7 +79,7 @@ const ChargingNetwork = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="bg-[#e8ebed] rounded-[1.25rem] overflow-hidden w-[23rem] h-[100%] col-span-1">
+                                <div className="bg-[#e8ebed] rounded-[1.25rem] overflow-hidden w-[23rem] max-[450px]:w-[100%] h-[100%] col-span-1">
                                     <div className="flex flex-col gap-6 p-6">
                                         <div className="flex w-8 h-8 ml-2">
                                             <img src="https://cdn.prod.website-files.com/651f461dff79ef9092702935/6527f7fc677560669b2065cd_leaf-charge-icon-orange.png" loading="lazy" alt="orange leaf icon" />
