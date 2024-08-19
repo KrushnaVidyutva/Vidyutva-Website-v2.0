@@ -46,7 +46,7 @@ const footer = () => {
       <div className='py-20 px-[5%] max-lg:px-[3%]'>
         <div className='flex max-lg:flex-col justify-between w-[100%] mb-20'>
           <div className='w-[45%]'>
-            <h1 className='text-[#FF914D] font-semibold text-[1.75rem]'>Join our newsletter</h1>
+            <h1 className='text-[#00a181] font-semibold text-[1.75rem]'>Join our newsletter</h1>
             <p className='text-sm text-[#1d344f]'>Subscribe to stay up-to-date on all the latest from Vidyutva.</p>
           </div>
           <div className="grid grid-cols-4 gap-4 max-lg:w-[100%] w-[50%] max-lg:mt-4">
@@ -73,7 +73,7 @@ const footer = () => {
             </div>
           ))}
           <div className='col-span-1'>
-            <div className='relative p-4 border bg-[#FF914D] rounded-lg w-full overflow-hidden blow'>
+            <div className='relative p-4 border bg-gray-400 rounded-lg w-full overflow-hidden shadow-sm blow'>
               <div className='flex justify-between items-center mb-4 relative z-10'>
                 <img src="/images/footer/new/icon.png" alt="Icon" className="w-8" />
                 <img src="/images/footer/new/right.png" alt="Arrow" className="w-8" />

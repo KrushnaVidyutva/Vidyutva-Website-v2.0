@@ -6,7 +6,7 @@ const Services = () => {
             <div className="min-[945px]:grid min-[945px]:grid-cols-2 max-[945px]:flex max-[945px]:flex-col gap-10 items-start">
                 <div className="min-[945px]:col-span-1">
                     <h2 className="font-bold text-base">Services</h2>
-                    <h1 className="pt-4 font-semibold text-5xl">The provider of reliable chargers and charging management solution</h1>
+                    <h1 className="pt-4 font-semibold text-5xl capitalize">The reliable and first charging solution</h1>
                 </div>
                 <div className="min-[945px]:col-span-1  flex flex-col gap-8">
                     <p className="text-lg text-[#2f3433]">Vidyuyva works with companies and government agencies across India to provide EV charger and vehicle management solutions, and to keep staff and customers charged.</p>

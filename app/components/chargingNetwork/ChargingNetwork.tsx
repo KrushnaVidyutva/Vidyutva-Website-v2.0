@@ -7,7 +7,7 @@ const ChargingNetwork = () => {
                 <div className="w-[100%] max-w-[35rem]">
                     <div className="flex flex-col gap-8">
                         <div className="font-semibold text-base">Charging Network</div>
-                        <h1 className="font-semibold text-5xl">India’s largest network</h1>
+                        <h1 className="font-semibold text-5xl">India’s reliable network</h1>
                         <p className="font-normal text-lg text-[#1d344f]">The Vidyutva platform brings together chargers operated by businesses and governments all over India, giving you access to the largest and fastest growing EV charging network - all in one place.</p>
                         <div className="flex items-center flex-wrap">
                             <Link to={"#"} className="py-3 px-6 flex items-center rounded-[3.125rem] border border-zinc-800 text-center gap-[.8rem] transition-[bg] duration-300 ease-in-out hover:bg-[#e8ebed] hover:border-[#e8ebed]">
@@ -34,7 +34,7 @@ const ChargingNetwork = () => {
                                 <div className="bg-[#e8ebed] rounded-[1.25rem] overflow-hidden w-[23rem] max-[450px]:w-[100%] col-span-1">
                                     <div className="flex flex-col gap-6 p-6">
                                         <div className="flex w-8 h-8 ml-2">
-                                            <img src="https://cdn.prod.website-files.com/651f461dff79ef9092702935/6527f7fcfa7bd4d2e99860fe_clock-icon-orange.png" loading="lazy" alt="orange clock icon" />
+                                            <img src="/images/icons/time.png" loading="lazy" alt="orange clock icon" />
                                         </div>
                                         <div >
                                             <h5 className="font-semibold text-2xl mb-4 ml-2">Reliable</h5>
@@ -49,7 +49,7 @@ const ChargingNetwork = () => {
                                 <div className="bg-[#e8ebed] rounded-[1.25rem] overflow-hidden w-[23rem] max-[450px]:w-[100%] h-[100%] col-span-1">
                                     <div className="flex flex-col gap-6 p-6">
                                         <div className="flex w-8 h-8 ml-2">
-                                            <img src="https://cdn.prod.website-files.com/651f461dff79ef9092702935/6527f7fbd7301efb154f0873_check-icon-orange.png" loading="lazy" alt="orange check icon" />
+                                            <img src="/images/icons/check.png" loading="lazy" alt="orange check icon" />
                                         </div>
                                         <div >
                                             <h5 className="font-semibold text-2xl mb-4 ml-2">Reliable</h5>
@@ -67,7 +67,7 @@ const ChargingNetwork = () => {
                                 <div className="bg-[#e8ebed] rounded-[1.25rem] overflow-hidden w-[23rem] max-[450px]:w-[100%] col-span-1">
                                     <div className="flex flex-col gap-6 p-6">
                                         <div className="flex w-8 h-8 ml-2">
-                                            <img src="https://cdn.prod.website-files.com/651f461dff79ef9092702935/6527f7fcb395c60c423f1042_venn-icon-orange.png" loading="lazy" alt="orange venn icon" />
+                                            <img src="/images/icons/venn-diagram.png" loading="lazy" alt="orange venn icon" />
                                         </div>
                                         <div >
                                             <h5 className="font-semibold text-2xl mb-4 ml-2">Reliable</h5>
@@ -82,7 +82,7 @@ const ChargingNetwork = () => {
                                 <div className="bg-[#e8ebed] rounded-[1.25rem] overflow-hidden w-[23rem] max-[450px]:w-[100%] h-[100%] col-span-1">
                                     <div className="flex flex-col gap-6 p-6">
                                         <div className="flex w-8 h-8 ml-2">
-                                            <img src="https://cdn.prod.website-files.com/651f461dff79ef9092702935/6527f7fc677560669b2065cd_leaf-charge-icon-orange.png" loading="lazy" alt="orange leaf icon" />
+                                            <img src="/images/icons/power.png" loading="lazy" alt="orange leaf icon" />
                                         </div>
                                         <div >
                                             <h5 className="font-semibold text-2xl mb-4 ml-2">Reliable</h5>

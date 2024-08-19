@@ -6,7 +6,7 @@ const AppLayout = () => {
             <div className="grid min-[945px]:grid-cols-2 max-[945px]:flex  max-[945px]:flex-col gap-[5rem] px-[3.75rem] max-[556px]:px-[1.5rem] pt-[3.75rem] rounded-[1.5rem] bg-[#00a181] text-white">
                 <div className="min-[945px]:col-span-1 flex flex-col items-start gap-6 mb-[3.75rem]">
                     <h2 className="font-semibold text-lg">Vidyutva app</h2>
-                    <h1 className="font-semibold text-5xl">Find, Charge, Pay, Drive.</h1>
+                    <h1 className="font-semibold text-5xl">Discover, Charge, Pay, Drive.</h1>
                     <p className="font-medium text-lg">Download the app on the Apple App Store or Google Play Store and start charging in minutes.</p>
                     <div className="grid grid-rows-5 py-2 mb-4 gap-4">
                         <div className="flex items-center row-span-1">
@@ -86,7 +86,7 @@ const AppLayout = () => {
                             </div>
                             <div className="font-semibold text-base">Download on iOS</div>
                         </Link> */}
-                        <Link to="#" target="_blank" className="flex justify-center items-center gap-3 rounded-[3.125rem] text-[#00a181] bg-white text-center py-[.75rem] px-[1.5rem] transition-all duration-300 ease-in hover:bg-[#00a181a5] hover:text-white border border-white">
+                        <Link to="https://play.google.com/store/apps/details?id=com.vidyutvaev" target="_blank" className="flex justify-center items-center gap-3 rounded-[3.125rem] text-[#00a181] bg-white text-center py-[.75rem] px-[1.5rem] transition-all duration-300 ease-in hover:bg-[#00a181a5] hover:text-white border border-white">
                             <div className="w-[2rem] h-[2rem]">
                                 <div className="flex justify-center items-center">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 25 24" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img">
