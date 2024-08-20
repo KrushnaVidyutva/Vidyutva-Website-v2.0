@@ -9,7 +9,8 @@ const WhoWeAre = () => {
                         <p className="pt-[1.5rem] text-xl">We’re India’s largest and fastest growing EV charging network. We’re committed to making charging simple, affordable and fast for everyone - because simpler charging means more EVs on the road, and that’s a very good thing.</p>
                     </div>
                     <div className="w-[100%] rounded-3xl overflow-hidden">
-                        <img src="/images/who.webp" alt="Loading..." className="w-[100%]" />
+                        {/* <img src="/images/who.webp" alt="Loading..." className="w-[100%]" /> */}
+                        <video src="/videos/WhoWeAre.mp4" className="w-[100%]" controls></video>
                     </div>
                     {/* <div className="text-center w-[100%] max-w-[48rem]">
                         <h1 className="font-semibold text-5xl">Bringing drivers and chargers together on one platform, built right here in India.</h1>
