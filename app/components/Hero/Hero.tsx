@@ -5,14 +5,14 @@ const Hero = () => {
         <div className="bg-img">
             <div className="min-[1080px]:py-[9rem] max-[1080px]:pt-[9rem] max-[1080px]:pb-[2rem] min-[1080px]:pr-[5%] grid min-[1080px]:grid-cols-3 max-[1080px]:grid-row-2 gap-[4rem] ">
                 <div className="col-span-2 bg-white min-[1080px]:min-w-[45rem] min-[1080px]:w-[50%] max-[1080px]:w-[100%] px-[3rem] py-[4rem] flex-col min-[1080px]:rounded-tr-[1.5rem] min-[1080px]:rounded-br-[1.5rem] grid gap-8">
-                    <h1 className="font-semibold text-6xl ">India's  <br />reliable EV<br />charging platform</h1>
+                    <h1 className="font-semibold text-6xl ">India's  <br />most reliable EV<br />charging platform</h1>
                     <div className="w-[100%] max-w-[35rem] ml-0">
                         <p className="text-xl mb-0">
                             We make hosting and managing chargers easy for organisations and destinations, and partner with fleet managers, vehicle manufacturers and hire-car providers to keep drivers moving.
                         </p>
                     </div>
                     <div className="flex flex-wrap gap-4">
-                        <Link to="https://play.google.com/store/apps/details?id=com.vidyutvaev" target="_blank" className="flex justify-center items-center gap-3 rounded-[3.125rem] bg-[#00a181] text-white text-center py-[.75rem] px-[1.5rem] transition-all duration-300 ease-in hover:bg-[#00a181a5]">
+                        <Link to="https://play.google.com/store/apps/details?id=com.vidyutvaev" target="_blank" className="flex justify-center items-center gap-3 rounded-[3.125rem] bg-[#00a181] text-white text-center py-[.75rem] px-[1.5rem] transition-all duration-300 ease-in hover:bg-[#009085] bx-shadow2">
                             <div className="w-[2rem] h-[2rem]">
                                 <div className="flex justify-center items-center">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 25 24" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img">

@@ -1,53 +1,73 @@
 import React from 'react'
 import './card.css'
 import { LuInfo } from 'react-icons/lu'
+import { FaArrowRightLong } from 'react-icons/fa6'
 
-const Card = () => {
+interface CardProps {
+    img: string,
+    name: string,
+    capacity: string
+    design1: string
+    design2: string
+    design3: string
+    connectivity1: string
+    connectivity2: string
+    connectivity3: string
+    connectivity4: string
+}
+
+const Card = ({ img, name, capacity, design1, design2, design3, connectivity1, connectivity2, connectivity3, connectivity4 }: CardProps) => {
     return (
         <div className="wrapper">
             <div className="container">
                 <div className="top py-4 flex justify-center items-center">
-                    <img src="/images/Evstand.png" alt="Loading.." className='h-[100%]' />
+                    <img src={img} alt="Loading.." className='h-[100%]' />
                 </div>
                 <div className="bottom">
                     <div className="left">
                         <div className="details ">
-                            <h1 className='font-semibold text-lg'>Vidyutva AC 3.3Kw</h1>
-                            <p className='font-normal text-base'>₹250</p>
+                            <h1 className='font-semibold text-lg'>{name}</h1>
+                            <p className='font-normal text-base'>{capacity}</p>
                         </div>
-                        {/* <div className="buy"><i className="material-icons">add_shopping_cart</i></div> */}
                     </div>
-                    {/* <div className="right">
-                        <div className="done"><i className="material-icons">done</i></div>
-                        <div className="details">
-                            <h1>Chair</h1>
-                            <p>Added to your cart</p>
-                        </div>
-                        <div className="remove"><i className="material-icons">clear</i></div>
-                    </div> */}
                 </div>
             </div>
             <div className="inside">
                 <div className="icon"><LuInfo /></div>
                 <div className="contents">
+                    {/* <div>
+                        <p><span></span></p>
+                    </div> */}
                     <table>
-                        <tr>
-                            <th>Width</th>
-                            <th>Height</th>
-                        </tr>
-                        <tr>
-                            <td>3000mm</td>
-                            <td>4000mm</td>
-                        </tr>
-                        <tr>
-                            <th>Width</th>
-                            <th>Height</th>
-                        </tr>
-                        <tr>
-                            <td>3000mm</td>
-                            <td>4000mm</td>
-                        </tr>
-
+                        <div>
+                            <tr>
+                                <th className='font-semibold text-xl'>Design</th>
+                            </tr>
+                            <tr>
+                                <td className='font-normal text-base'>
+                                    <ul className='list-disc'>
+                                        <li>{design1}</li>
+                                        <li>{design2}</li>
+                                        <li>{design3}</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </div>
+                        <div className='mt-4'>
+                            <tr>
+                                <th className='font-semibold text-xl'>Connectivity</th>
+                            </tr>
+                            <tr>
+                                <td className='font-normal text-base'>
+                                    <ul className='list-disc'>
+                                        <li>{connectivity1}</li>
+                                        <li>{connectivity2}</li>
+                                        <li>{connectivity3}</li>
+                                        <li>{connectivity4}</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </div>
                     </table>
                 </div>
             </div>

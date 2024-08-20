@@ -4,7 +4,7 @@ const FAQ = () => {
 
     return (
         <div className="px-[5%] pb-[7rem]">
-            <div className="bg-[#00a181aa] rounded-[1.5rem] px-[3.75rem] py-[6.25rem] min-[950px]:grid items-start min-[950px]:grid-cols-9 max-[950px]:flex max-[950px]:flex-col gap-[5rem]">
+            <div className="bg-[#009085] rounded-[1.5rem] px-[3.75rem] py-[6.25rem] min-[950px]:grid items-start min-[950px]:grid-cols-9 max-[950px]:flex max-[950px]:flex-col gap-[5rem]">
                 <div className="min-[768px]:col-span-4 flex flex-col items-start gap-6 text-white">
                     <h2 className="font-semibold text-5xl">Got questions?</h2>
                     <p className="text-lg font-normal">Thinking about getting into your first EV or maybe you manage a fleet of hundreds. You’ve got questions and we’ve got answers.</p>
@@ -20,13 +20,30 @@ const FAQ = () => {
                     </div>
                 </div>
                 <div className="min-[950px]:col-span-5 flex flex-col text-white ">
-                    <Questions />
-                    <Questions />
-                    <Questions />
-                    <Questions />
-                    <Questions />
-                    <Questions />
-                    <Questions />
+                    <Questions
+                        question="How do I use the Vidyutva network?"
+                        answer="Simply download the Vidyutva app for Android, create an account, plug in, and start your charging session. The app will let you know in realtime how your charge is going so you don’t need to keep checking back."
+                    />
+                    <Questions
+                        question="Can I keep my chargers private?"
+                        answer="Absolutely. Vidyutva can help you manage and monitor private chargers. We provide solutions for workplaces, residential developments, fleets and much more."
+                    />
+                    <Questions
+                        question="Does Vidyutva install chargers?"
+                        answer="Yes Vidyutva install chargers and also, Vidyutva provides the software and services for organisations to manage and monitor their chargers and the app for drivers to find, use and pay for charging."
+                    />
+                    <Questions
+                        question="Why add my chargers to the Vidyutva network?"
+                        answer="Vidyutva is the network of networks. By adding your chargers to the Vidyutva network you are joining hundreds of organisations featuring thousands of chargers. Over 95% of EV drivers use Vidyutva to find their next Charge so your chargers will be visible to almost every EV owner."
+                    />
+                    <Questions
+                        question="Why should I install EV chargers?"
+                        answer="There are lots of reasons to install EV chargers at your premises. Installing public EV charging has been shown to increase customer loyalty, grow revenue, and attract new customers. It’s also a great way to demonstrate your sustainability values."
+                    />
+                    <Questions
+                        question="How do charging subscriptions and prepaid charger packs work?"
+                        answer="With a Vidyutva subscription or prepaid charger pack you can provide your customers or staff with access to the largest public EV charging network in India. Your chosen drivers will be able to charge their car at all public chargers on the Vidyutva network with absolutely no cost to them."
+                    />
                     <div className="border-b border-green-50"></div>
                 </div>
             </div>

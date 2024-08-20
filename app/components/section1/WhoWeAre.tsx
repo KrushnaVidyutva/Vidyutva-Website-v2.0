@@ -1,15 +1,17 @@
+import { useState } from "react"
 
 const WhoWeAre = () => {
+    const [active, setActive] = useState(false)
     return (
         <div className='transition-[background-color] duration-500 ease-in-out'>
             <div className="px-[5%]">
                 <div className="flex flex-col items-center gap-[5rem]">
                     <div className="text-center w-[100%] max-w-[48rem]">
                         <h1 className="font-semibold text-5xl">Who is Vidyutva?</h1>
-                        <p className="pt-[1.5rem] text-xl">We’re India’s largest and fastest growing EV charging network. We’re committed to making charging simple, affordable and fast for everyone - because simpler charging means more EVs on the road, and that’s a very good thing.</p>
+                        <p className="pt-[1.5rem] text-xl">We’re India’s most reliable and advanced EV charging network. We’re dedicated to making charging simple, affordable, and fast for everyone—because easier charging means more EVs on the road, and that’s a great step towards a greener future.</p>
                     </div>
-                    <div className="w-[100%] rounded-3xl overflow-hidden">
-                        {/* <img src="/images/who.webp" alt="Loading..." className="w-[100%]" /> */}
+                    <div className="relative w-[100%] rounded-3xl overflow-hidden " onClick={() => setActive(true)}>
+                        <img src="/images/thumbnail.png" alt="Loading..." className={`w-[100%] h-[100%] absolute top-0 left-0 ${active ? "-z-40" : " z-10"}`} />
                         <video src="/videos/WhoWeAre.mp4" className="w-[100%]" controls></video>
                     </div>
                     {/* <div className="text-center w-[100%] max-w-[48rem]">

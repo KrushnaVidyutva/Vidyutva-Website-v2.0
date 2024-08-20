@@ -57,7 +57,7 @@ body {
 
             .left {
                 height: 100%;
-                width: 50%;
+                width: 70%;
                 background: #f4f4f4;
                 position: relative;
                 float: left;
@@ -65,7 +65,7 @@ body {
                 .details {
                     padding: 20px;
                     float: left;
-                    width: 100%;
+                    width: 70%;
                 }
 
                 .buy {
@@ -159,7 +159,7 @@ body {
 
     .inside {
         z-index: 9;
-        background: #00a181;
+        background: #009085;
         width: 140px;
         height: 140px;
         position: absolute;

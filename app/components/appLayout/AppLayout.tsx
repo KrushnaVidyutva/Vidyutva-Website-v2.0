@@ -7,7 +7,7 @@ const AppLayout = () => {
                 <div className="min-[945px]:col-span-1 flex flex-col items-start gap-6 mb-[3.75rem]">
                     <h2 className="font-semibold text-lg">Vidyutva app</h2>
                     <h1 className="font-semibold text-5xl">Discover, Charge, Pay, Drive.</h1>
-                    <p className="font-medium text-lg">Download the app on the Apple App Store or Google Play Store and start charging in minutes.</p>
+                    <p className="font-medium text-lg">Download the app on Google Play Store and start charging in minutes.</p>
                     <div className="grid grid-rows-5 py-2 mb-4 gap-4">
                         <div className="flex items-center row-span-1">
                             <div className="bg-[#f8f9fb] text-[#00a181] mr-4 p-[10px] rounded-full">

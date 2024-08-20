@@ -56,7 +56,7 @@ const footer = () => {
               placeholder="Enter your email"
             />
             {/* <br className="hidden max-[500px]:block" /> */}
-            <button className="col-span-1 max-[500px]:col-span-2 bg-[#00a181] text-white rounded-full py-[.5rem] px-4 text-base   hover:bg-[#00a181af]"> Subscribe</button>
+            <button className="col-span-1 max-[500px]:col-span-2 bg-[#00a181] text-white rounded-full py-[.5rem] px-4 text-base   hover:bg-[#009085] transition-all duration-500 ease-in-out bx-shadow"> Subscribe</button>
             <p className="col-span-4 text-xs text-[#1d344f]">By subscribing you agree to with our <a href="#" className="underline">Privacy Policy</a></p>
           </div>
         </div>
@@ -73,13 +73,13 @@ const footer = () => {
             </div>
           ))}
           <div className='col-span-1'>
-            <div className='relative p-4 border bg-gray-400 rounded-lg w-full overflow-hidden shadow-sm blow'>
+            <div className='relative p-4 border bg-[#2f4858] rounded-lg w-full overflow-hidden shadow-sm blow'>
               <div className='flex justify-between items-center mb-4 relative z-10'>
-                <img src="/images/footer/new/icon.png" alt="Icon" className="w-8" />
+                <img src="/images/apple-touch-icon.png" alt="Icon" className="w-8 h-8" />
                 <img src="/images/footer/new/right.png" alt="Arrow" className="w-8" />
               </div>
               <h1 className='text-white font-semibold text-2xl relative z-10 blow'>Get in touch with Vidyutva</h1>
-              <div className="absolute inset-0 bg-[#00a181] transform translate-y-full hover:translate-y-0 transition-transform duration-500 ease-in-out z-0 blow1"></div>
+              <div className="absolute inset-0 bg-[#009085] transform translate-y-full hover:translate-y-0 transition-transform duration-500 ease-in-out z-0 blow1"></div>
             </div>
           </div>
         </div>

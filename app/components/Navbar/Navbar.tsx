@@ -19,7 +19,7 @@ const Navbar = () => {
             </div>
 
             <div className="flex justify-center items-center">
-                <Link to={"/get-in-touch"} className="flex justify-center items-center rounded-[3.125rem] bg-[#00a181] text-white py-[.75rem] px-[1.5rem] hover:bg-[#00a181a5] transition-all duration-300 ease-in">
+                <Link to={"/get-in-touch"} className="flex justify-center items-center rounded-[3.125rem] bg-[#00a181] text-white py-[.75rem] px-[1.5rem] hover:bg-[#009085] bx-shadow2 transition-all duration-300 ease-in">
                     <div className="font-sans text-white font-medium">Get in touch</div>
                 </Link>
             </div>

@@ -8,8 +8,8 @@ const HomeAbout = () => {
                 <div className="heroh2 flex items-center justify-between  w-[100%] ">
                     <div className="px-28 ">
                         <h4 className='font-bold text-3xl py-4'>User friendly & realiable EV charging network in India</h4>
-                        <Link to="#" >
-                            <button className='flex justify-between items-center gap-3 border border-white px-6 py-3 font-semibold text-base rounded-full hover:bg-gray-100 hover:border-gray-100 hover:text-gray-800 transition-all duration-300 ease-in-out'>
+                        <Link to="#" className='transition-all duration-500 ease-in-out'>
+                            <button className='flex justify-between items-center gap-3 border border-white px-6 py-3 font-semibold text-base rounded-full hover:bg-gray-100 hover:border-gray-100 hover:text-gray-800 transition-all duration-500 ease-in-out'>
                                 <span className='mb-1'>About us</span>
                                 <div className='h-[.9rem] w-[.9rem]'>
                                     <svg width="currentWidth" height="currentHeight" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">

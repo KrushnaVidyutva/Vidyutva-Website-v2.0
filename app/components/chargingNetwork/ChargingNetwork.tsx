@@ -52,11 +52,11 @@ const ChargingNetwork = () => {
                                             <img src="/images/icons/check.png" loading="lazy" alt="orange check icon" />
                                         </div>
                                         <div >
-                                            <h5 className="font-semibold text-2xl mb-4 ml-2">Reliable</h5>
+                                            <h5 className="font-semibold text-2xl mb-4 ml-2">Available</h5>
                                             <ul className="list-disc flex flex-col gap-2 ml-6">
-                                                <li>99.9% app &amp; platform uptime.</li>
-                                                <li>Real-time chargers status and availability.</li>
-                                                <li>24/7 customer phone support.</li>
+                                                <li>Most reliable EV charging network in Odisha and Kolkata.</li>
+                                                <li>Fastest growing.</li>
+                                                <li>Available in regional, rural, and metropolitan locations.</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -70,11 +70,11 @@ const ChargingNetwork = () => {
                                             <img src="/images/icons/venn-diagram.png" loading="lazy" alt="orange venn icon" />
                                         </div>
                                         <div >
-                                            <h5 className="font-semibold text-2xl mb-4 ml-2">Reliable</h5>
+                                            <h5 className="font-semibold text-2xl mb-4 ml-2">Inclusive & Unified</h5>
                                             <ul className="list-disc flex flex-col gap-2 ml-6">
-                                                <li>99.9% app &amp; platform uptime.</li>
-                                                <li>Real-time chargers status and availability.</li>
-                                                <li>24/7 customer phone support.</li>
+                                                <li>Compatible with all EV brands and models.</li>
+                                                <li>Integrating charger networks into a seamless user experience via the app.</li>
+                                                <li>Offering various pricing options and charging speeds.</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -85,11 +85,11 @@ const ChargingNetwork = () => {
                                             <img src="/images/icons/power.png" loading="lazy" alt="orange leaf icon" />
                                         </div>
                                         <div >
-                                            <h5 className="font-semibold text-2xl mb-4 ml-2">Reliable</h5>
+                                            <h5 className="font-semibold text-2xl mb-4 ml-2">Sustainable</h5>
                                             <ul className="list-disc flex flex-col gap-2 ml-6">
-                                                <li>99.9% app &amp; platform uptime.</li>
-                                                <li>Real-time chargers status and availability.</li>
-                                                <li>24/7 customer phone support.</li>
+                                                <li>Helping EV drivers transition to zero carbon emissions in India.</li>
+                                                <li>Maximizing the use of renewable energy.</li>
+                                                <li>Many locations powered by solar energy.</li>
                                             </ul>
                                         </div>
                                     </div>
