@@ -1,12 +1,11 @@
 import React from 'react'
 import './card.css'
 import { LuInfo } from 'react-icons/lu'
-import { FaArrowRightLong } from 'react-icons/fa6'
+import { FaArrowAltCircleRight } from 'react-icons/fa'
 
 interface CardProps {
     img: string,
     name: string,
-    capacity: string
     design1: string
     design2: string
     design3: string
@@ -16,7 +15,7 @@ interface CardProps {
     connectivity4: string
 }
 
-const Card = ({ img, name, capacity, design1, design2, design3, connectivity1, connectivity2, connectivity3, connectivity4 }: CardProps) => {
+const Card = ({ img, name, design1, design2, design3, connectivity1, connectivity2, connectivity3, connectivity4 }: CardProps) => {
     return (
         <div className="wrapper">
             <div className="container">
@@ -27,7 +26,7 @@ const Card = ({ img, name, capacity, design1, design2, design3, connectivity1, c
                     <div className="left">
                         <div className="details ">
                             <h1 className='font-semibold text-lg'>{name}</h1>
-                            <p className='font-normal text-base'>{capacity}</p>
+                            <div className='text-3xl text-[#00a181] hover:text-[#5ad9b6]'><FaArrowAltCircleRight /></div>
                         </div>
                     </div>
                 </div>
@@ -35,9 +34,6 @@ const Card = ({ img, name, capacity, design1, design2, design3, connectivity1, c
             <div className="inside">
                 <div className="icon"><LuInfo /></div>
                 <div className="contents">
-                    {/* <div>
-                        <p><span></span></p>
-                    </div> */}
                     <table>
                         <div>
                             <tr>

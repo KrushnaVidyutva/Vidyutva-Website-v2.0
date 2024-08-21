@@ -13,12 +13,12 @@ const Services = () => {
                     <div className="grid grid-rows-2 ">
                         <div className="row-span-1 grid grid-cols-2 gap-6">
                             <Link to="#" className="col-span-1">
-                                <div className="relative bg-[#e8ebed] rounded-[1.25rem] group hover:bg-[#00a181] hover:text-white transition-all duration-300 ease-in-out">
+                                <div className="relative bg-[#e8ebed] rounded-[1.25rem] group hover:text-white transition-all duration-300 ease-in-out">
                                     <div className="flex flex-col p-6 gap-6">
                                         <div className="flex items-center justify-between">
-                                            <h1 className="font-semibold text-lg z-10">Hosting Chargers</h1>
+                                            <h1 className="font-semibold text-lg z-10">White Label Software</h1>
                                         </div>
-                                        <div className="z-10"><p className="font-normal text-base">Attract new audiences, build loyalty and increase customer spend by hosting EV chargers.</p></div>
+                                        <div className="z-10"><p className="font-normal text-base ">Seamlessly integrate your logo, colors, and unique brand elements to offer a fully personalized experience.</p></div>
                                         <div className="flex justify-end items-center z-10">
                                             <div className="bg-[#00a181] text-white rounded-full p-[12px] group-hover:bg-white group-hover:text-[#00a181]">
                                                 <div className="flex justify-center items-center">
@@ -33,12 +33,12 @@ const Services = () => {
                                 </div>
                             </Link>
                             <Link to="#" className="col-span-1">
-                                <div className="relative bg-[#e8ebed] rounded-[1.25rem] group hover:text-white transition-all duration-300 ease-in-out">
+                                <div className="relative bg-[#e8ebed] rounded-[1.25rem] group hover:bg-[#00a181] hover:text-white transition-all duration-300 ease-in-out">
                                     <div className="flex flex-col p-6 gap-6">
                                         <div className="flex items-center justify-between">
-                                            <h1 className="font-semibold text-lg z-10">Vehicle subscriptions</h1>
+                                            <h1 className="font-semibold text-lg z-10">Hosting Chargers</h1>
                                         </div>
-                                        <div className="z-10"><p className="font-normal text-base ">Provide your new vehicle owners or customers with free access to Australia’s largest charging network.</p></div>
+                                        <div className="z-10"><p className="font-normal text-base">Attract new audiences, build loyalty and increase customer spend by hosting EV chargers.</p></div>
                                         <div className="flex justify-end items-center z-10">
                                             <div className="bg-[#00a181] text-white rounded-full p-[12px] group-hover:bg-white group-hover:text-[#00a181]">
                                                 <div className="flex justify-center items-center">

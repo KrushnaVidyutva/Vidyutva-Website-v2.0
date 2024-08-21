@@ -5,12 +5,11 @@ import Card2 from "./card2/Card2"
 const Portfolio = () => {
 
     return (
-        <div className="px-[5%] py-8 grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 gap-7">
+        <div id="product" className="px-[5%] py-8 grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 gap-7">
             <div className="col-span-1 flex justify-center">
                 <Card
                     img="/images/Evstand.png"
-                    name="Vidyutva AC For Two Wheeler"
-                    capacity="3.3KW"
+                    name="Vidyutva AC 3.3KW"
                     design1="Max current up to 32A/40A/48A"
                     design2="Max power up to 3.3KWh"
                     design3="Variants: IP54"
@@ -23,8 +22,7 @@ const Portfolio = () => {
             <div className="col-span-1 flex justify-center">
                 <Card
                     img="/images/Evstand7.png"
-                    name="Vidyutva AC For Four Wheeler"
-                    capacity="7.2KW"
+                    name="Vidyutva AC 7.2KW"
                     design1="Constant power output voltage (V) DC300-1000V"
                     design2="Max power up to 7.2KWh"
                     design3="Variants: IP54"
@@ -38,7 +36,6 @@ const Portfolio = () => {
                 <Card
                     img="/images/Evstand30.jpg"
                     name="Vidyutva DC 30KW"
-                    capacity="30KW"
                     design1="Max output current(A) up to ,DC400A"
                     design2="Output power up to 30KWh"
                     design3="Variants: IP54"

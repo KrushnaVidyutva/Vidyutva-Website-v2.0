@@ -10,10 +10,10 @@ const Navbar = () => {
                 <Link to={"#"} className="px-[1rem] py-[.5rem] font-medium font-sans hover:border-b hover:border-[#00a181] hover:text-[#00a181] transition-all duration-300 ease-out group">
                     segments
                 </Link>
-                <Link to={"#"} className="px-[1rem] py-[.5rem] font-medium font-sans hover:border-b hover:border-[#00a181] hover:text-[#00a181] transition-all duration-300 ease-out group">
+                <Link to={"#product"} className="px-[1rem] py-[.5rem] font-medium font-sans hover:border-b hover:border-[#00a181] hover:text-[#00a181] transition-all duration-300 ease-out group">
                     products
                 </Link>
-                <Link to={"#"} className="px-[1rem] py-[.5rem] font-medium font-sans hover:border-b hover:border-[#00a181] hover:text-[#00a181] transition-all duration-300 ease-out group">
+                <Link to={"#about"} className="px-[1rem] py-[.5rem] font-medium font-sans hover:border-b hover:border-[#00a181] hover:text-[#00a181] transition-all duration-300 ease-out group">
                     about us
                 </Link>
             </div>

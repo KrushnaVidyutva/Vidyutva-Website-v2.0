@@ -4,7 +4,7 @@ const HomeAbout = () => {
 
     return (
         <>
-            <div className="hero bg-black ">
+            <div className="hero bg-black" id='about'>
                 <div className="heroh2 flex items-center justify-between  w-[100%] ">
                     <div className="px-28 ">
                         <h4 className='font-bold text-3xl py-4'>User friendly & realiable EV charging network in India</h4>

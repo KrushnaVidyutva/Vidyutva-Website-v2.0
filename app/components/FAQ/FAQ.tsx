@@ -34,7 +34,7 @@ const FAQ = () => {
                     />
                     <Questions
                         question="Why add my chargers to the Vidyutva network?"
-                        answer="Vidyutva is the network of networks. By adding your chargers to the Vidyutva network you are joining hundreds of organisations featuring thousands of chargers. Over 95% of EV drivers use Vidyutva to find their next Charge so your chargers will be visible to almost every EV owner."
+                        answer="Vidyutva is more than just a charging network—it's a technology-driven ecosystem. By integrating your chargers with the Vidyutva network. Vidyutva's advanced technology, including predictive maintenance and real-time monitoring, ensures your chargers are not only visible but also reliable. Rely on Vidyutva to locate their next charge, making your chargers accessible to almost every EV owner in India."
                     />
                     <Questions
                         question="Why should I install EV chargers?"

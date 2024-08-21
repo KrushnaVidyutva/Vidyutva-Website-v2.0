@@ -39,9 +39,9 @@ const ChargingNetwork = () => {
                                         <div >
                                             <h5 className="font-semibold text-2xl mb-4 ml-2">Reliable</h5>
                                             <ul className="list-disc flex flex-col gap-2 ml-6">
-                                                <li>99.9% app &amp; platform uptime.</li>
+                                                <li>Preventive maintenance</li>
                                                 <li>Real-time chargers status and availability.</li>
-                                                <li>24/7 customer phone support.</li>
+                                                <li>24/7 whatsapp chat support.</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -56,7 +56,7 @@ const ChargingNetwork = () => {
                                             <ul className="list-disc flex flex-col gap-2 ml-6">
                                                 <li>Most reliable EV charging network in Odisha and Kolkata.</li>
                                                 <li>Fastest growing.</li>
-                                                <li>Available in regional, rural, and metropolitan locations.</li>
+                                                <li>Available in odisha, india.</li>
                                             </ul>
                                         </div>
                                     </div>

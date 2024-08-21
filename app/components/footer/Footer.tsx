@@ -1,3 +1,5 @@
+import { Link } from "@remix-run/react";
+
 const menuData = [
   {
     title: 'Drivers',
@@ -89,13 +91,12 @@ const footer = () => {
         <div className='flex justify-between max-md:flex-col gap-6'>
           <p className='text-[#1d344f] text-xs text-center'>© 2024 Vidyutva | All rights reserved.</p>
           <div className='flex min-[500px]:justify-between items-cente max-[500px]:flex-col max-[500px]:items-center gap-6'>
-            <p className='text-[#1d344f] text-xs underline'>Privacy Policy</p>
-            <p className='text-[#1d344f] text-xs underline'>Terms & Conditions</p>
-            <p className='text-[#1d344f] text-xs underline'>CPO Terms & Conditions</p>
-            <p className='text-[#1d344f] text-xs underline'>Site Host Terms & Conditions</p>
+            <Link to={'/privacy-policy'}><p className='text-[#1d344f] text-xs underline'>Privacy Policy</p></Link>
+            <Link to={'/cancellation-and-refund-policy'}><p className='text-[#1d344f] text-xs underline'>Cancellation and Refund Policy</p></Link>
+            <Link to={'/terms-conditions'}><p className='text-[#1d344f] text-xs underline'>Terms & Conditions</p></Link>
           </div>
           <div className='flex items-center justify-center gap-3'>
-            <img src="/images/footer/new/linkedin.png" alt="Icon" className="w-5 hover:text-[#00a181]" />
+            <img src="/images/footer/new/linkedin.png" alt="Icon" className="w-5" />
             <img src="/images/footer/new/facebook.png" alt="Icon" className="w-5 " />
             <img src="/images/footer/new/instagram.png" alt="Icon" className="w-5 " />
           </div>
