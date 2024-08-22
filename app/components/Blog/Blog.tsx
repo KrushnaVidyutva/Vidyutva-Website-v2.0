@@ -19,7 +19,7 @@ const Blog = () => {
                     </div>
                 </div>
                 <div className="min-[845px]:grid min-[845px]:grid-cols-3 max-[845px]:flex max-[845px]:flex-col gap-8">
-                    <div className="rounded-[1.5rem] p-5 bg-[#d9d9d99c] col-span-1 flex flex-col gap-6">
+                    <div className="rounded-[1.5rem] p-5 bg-[#d9d9d99c] col-span-1 flex flex-col gap-6" data-aos="fade-up" data-aos-offset="150" data-aos-duration="400">
                         <div className="w-[100%] max-h-[12rem] rounded-[1.25rem] overflow-hidden">
                             <img src="/images/blog/Blog1.jpg" alt="Loading..." className="transition-all duration-300 ease-in-out imgTrns" />
                         </div>
@@ -36,7 +36,7 @@ const Blog = () => {
                         <p className="font-medium text-2xl text-gray-900">Vidyutva is now incubated at IIT Bhubaneswar Research & Entrepreneurship Park!</p>
                         <p className="font-medium text-sm text-gray-700">This milestone marks a significant step forward in our journey to make EV charging user-friendly and reliable in India. </p>
                     </div>
-                    <div className="rounded-[1.5rem] p-5 bg-[#d9d9d99c] col-span-1 flex flex-col gap-6">
+                    <div className="rounded-[1.5rem] p-5 bg-[#d9d9d99c] col-span-1 flex flex-col gap-6" data-aos="fade-up" data-aos-offset="150" data-aos-duration="500">
                         <div className="w-[100%] max-h-[12rem] rounded-[1.25rem] overflow-hidden">
                             <img src="/images/blog/Blog2.jpg" alt="Loading..." className="transition-all duration-300 ease-in-out imgTrns" />
                         </div>
@@ -53,7 +53,7 @@ const Blog = () => {
                         <p className="font-medium text-2xl text-gray-900">Vidyutva won the 2nd runner up Mobility award at IIT Bombay in Eureka competition</p>
                         <p className="font-medium text-sm text-gray-700">It was a great experience for us meeting 60 amazing startups from 7 different tracks, in front of an amazing lineup of investors at Indian Institute of Technology, Bombay.</p>
                     </div>
-                    <div className="rounded-[1.5rem] p-5 bg-[#d9d9d99c] col-span-1 flex flex-col gap-6">
+                    <div className="rounded-[1.5rem] p-5 bg-[#d9d9d99c] col-span-1 flex flex-col gap-6" data-aos="fade-up" data-aos-offset="150" data-aos-duration="600">
                         <div className="w-[100%] max-h-[12rem] rounded-[1.25rem] overflow-hidden">
                             <img src="/images/blog/Blog3.jpg" alt="Loading..." className="transition-all duration-300 ease-in-out imgTrns" />
                         </div>
@@ -67,7 +67,7 @@ const Blog = () => {
                                 </div>
                             </Link>
                         </div>
-                        <p className="font-medium text-2xl text-gray-900">Excited to announce Vidyutva's graduation from the Founder Institute GCC program!</p>
+                        <p className="font-medium text-2xl text-gray-900">Proud to announce that Vidyutva, backed by the Founder Institute Pre-Seed Accelerator, has successfully graduated from the GCC program!</p>
                         <p className="font-medium text-sm text-gray-700">Our team is more energized than ever to take on the challenges ahead and make a lasting impact in the industry...</p>
                     </div>
                 </div>

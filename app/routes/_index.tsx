@@ -12,6 +12,8 @@ import Network from "~/components/network/Network";
 import Portfolio from "~/components/portfolio/Portfolio";
 import WhoWeAre from "~/components/section1/WhoWeAre";
 import Services from "~/components/services/Services";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export const meta: MetaFunction = () => {
   return [
@@ -61,6 +63,11 @@ export default function Index() {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
+  }, []);
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
   }, []);
 
   return (

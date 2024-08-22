@@ -6,7 +6,7 @@ const Portfolio = () => {
 
     return (
         <div id="product" className="px-[5%] py-8 grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 gap-7">
-            <div className="col-span-1 flex justify-center">
+            <div className="col-span-1 flex justify-center" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="400">
                 <Card
                     img="/images/Evstand.png"
                     name="Vidyutva AC 3.3KW"
@@ -19,7 +19,7 @@ const Portfolio = () => {
                     connectivity4="Three outputs of 230 VAC, 15 A each"
                 />
             </div>
-            <div className="col-span-1 flex justify-center">
+            <div className="col-span-1 flex justify-center" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="400">
                 <Card
                     img="/images/Evstand7.png"
                     name="Vidyutva AC 7.2KW"
@@ -32,7 +32,7 @@ const Portfolio = () => {
                     connectivity4="Output current 32A"
                 />
             </div>
-            <div className="col-span-1 flex justify-center">
+            <div className="col-span-1 flex justify-center" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="400">
                 <Card
                     img="/images/Evstand30.jpg"
                     name="Vidyutva DC 30KW"

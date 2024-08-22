@@ -3,7 +3,7 @@ import Questions from "./Questions"
 const FAQ = () => {
 
     return (
-        <div className="px-[5%] pb-[7rem]">
+        <div className="px-[5%] pb-[7rem]" data-aos="fade-up" data-aos-offset="150" data-aos-duration="600">
             <div className="bg-[#009085] rounded-[1.5rem] px-[3.75rem] py-[6.25rem] min-[950px]:grid items-start min-[950px]:grid-cols-9 max-[950px]:flex max-[950px]:flex-col gap-[5rem]">
                 <div className="min-[768px]:col-span-4 flex flex-col items-start gap-6 text-white">
                     <h2 className="font-semibold text-5xl">Got questions?</h2>

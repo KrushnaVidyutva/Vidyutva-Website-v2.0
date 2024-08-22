@@ -6,7 +6,7 @@ const WhoWeAre = () => {
         <div className='transition-[background-color] duration-500 ease-in-out'>
             <div className="px-[5%]">
                 <div className="flex flex-col items-center gap-[5rem]">
-                    <div className="text-center w-[100%] max-w-[48rem]">
+                    <div className="text-center w-[100%] max-w-[48rem]" data-aos="fade-up" data-aos-offset="150" data-aos-duration="400">
                         <h1 className="font-semibold text-5xl">Who is Vidyutva?</h1>
                         <p className="pt-[1.5rem] text-xl">We’re India’s most reliable and advanced EV charging network. We’re dedicated to making charging simple, affordable, and fast for everyone—because easier charging means more EVs on the road, and that’s a great step towards a greener future.</p>
                     </div>

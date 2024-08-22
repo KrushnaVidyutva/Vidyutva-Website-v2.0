@@ -25,7 +25,7 @@ const Hero = () => {
                     </div>
                 </div>
 
-                <div className="col-span-1 min-[1080px]:relative max-[1080px]:flex max-[1080px]:justify-center max-sm:items-center max-[1080px]:px-[5rem]">
+                <div data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600" className="col-span-1 min-[1080px]:relative max-[1080px]:flex max-[1080px]:justify-center max-sm:items-center max-[1080px]:px-[5rem]">
                     <div className=" min-[1080px]:absolute min-[1080px]:-bottom-24 rounded-[2rem] backdrop-blur-[5px] bg-[#f0f0f0cc] p-4 flex items-center flex-col gap-3">
                         <div className="pl-4 w-[100%]">
                             <div className="text-xl">I want to...</div>

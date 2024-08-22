@@ -17,7 +17,7 @@ const AppLayout = () => {
                                     </svg>
                                 </div>
                             </div>
-                            <div className="font-normal text-lg">
+                            <div className="font-normal text-lg" data-aos="fade-right" data-aos-offset="150" data-aos-duration="100">
                                 <p>Find stations near you</p>
                             </div>
                         </div>
@@ -30,7 +30,7 @@ const AppLayout = () => {
                                     </svg>
                                 </div>
                             </div>
-                            <div className="font-normal text-lg">
+                            <div className="font-normal text-lg" data-aos="fade-right" data-aos-offset="150" data-aos-duration="200">
                                 <p>Easily navigate</p>
                             </div>
                         </div>
@@ -43,7 +43,7 @@ const AppLayout = () => {
                                     </svg>
                                 </div>
                             </div>
-                            <div className="font-normal text-lg">
+                            <div className="font-normal text-lg" data-aos="fade-right" data-aos-offset="150" data-aos-duration="300">
                                 <p>Real-time charger status</p>
                             </div>
                         </div>
@@ -56,7 +56,7 @@ const AppLayout = () => {
                                     </svg>
                                 </div>
                             </div>
-                            <div className="font-normal text-lg">
+                            <div className="font-normal text-lg" data-aos="fade-right" data-aos-offset="150" data-aos-duration="400">
                                 <p>24/7 help and support</p>
                             </div>
                         </div>
@@ -69,7 +69,7 @@ const AppLayout = () => {
                                     </svg>
                                 </div>
                             </div>
-                            <div className="font-normal text-lg">
+                            <div className="font-normal text-lg" data-aos="fade-right" data-aos-offset="150" data-aos-duration="500">
                                 <p>Available for iPhone and Android</p>
                             </div>
                         </div>
@@ -98,7 +98,7 @@ const AppLayout = () => {
                         </Link>
                     </div>
                 </div>
-                <div className="min-[945px]:col-span-1 flex items-end justify-center">
+                <div className="min-[945px]:col-span-1 flex items-end justify-center" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="400">
                     <img src="/images/mobile_app.png" alt="Loading..." className="w-[24rem] max-w-[30rem] max-[556px]:w-[15rem] " />
                 </div>
             </div>

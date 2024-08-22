@@ -12,13 +12,13 @@ const Services = () => {
                     <p className="text-lg text-[#2f3433]">Vidyuyva works with companies and government agencies across India to provide EV charger and vehicle management solutions, and to keep staff and customers charged.</p>
                     <div className="grid grid-rows-2 ">
                         <div className="row-span-1 grid grid-cols-2 gap-6">
-                            <Link to="#" className="col-span-1">
+                            <Link to="#" className="col-span-1" data-aos="zoom-in-up" data-aos-offset="150" data-aos-duration="400">
                                 <div className="relative bg-[#e8ebed] rounded-[1.25rem] group hover:text-white transition-all duration-300 ease-in-out">
                                     <div className="flex flex-col p-6 gap-6">
                                         <div className="flex items-center justify-between">
                                             <h1 className="font-semibold text-lg z-10">White Label Software</h1>
                                         </div>
-                                        <div className="z-10"><p className="font-normal text-base ">Seamlessly integrate your logo, colors, and unique brand elements to offer a fully personalized experience.</p></div>
+                                        <div className="z-10"><p className="font-normal text-base ">Lunch your own cms and mobile app with your brand via vidyutva.</p></div>
                                         <div className="flex justify-end items-center z-10">
                                             <div className="bg-[#00a181] text-white rounded-full p-[12px] group-hover:bg-white group-hover:text-[#00a181]">
                                                 <div className="flex justify-center items-center">
@@ -32,7 +32,7 @@ const Services = () => {
                                     <div className="absolute inset-0 h-0 group-hover:h-[100%] bg-[#00a181] rounded-[1.25rem] transition-all duration-300 ease-in-out z-0"></div>
                                 </div>
                             </Link>
-                            <Link to="#" className="col-span-1">
+                            <Link to="#" className="col-span-1" data-aos="zoom-in-up" data-aos-offset="150" data-aos-duration="600">
                                 <div className="relative bg-[#e8ebed] rounded-[1.25rem] group hover:bg-[#00a181] hover:text-white transition-all duration-300 ease-in-out">
                                     <div className="flex flex-col p-6 gap-6">
                                         <div className="flex items-center justify-between">
@@ -54,7 +54,7 @@ const Services = () => {
                             </Link>
                         </div>
                         <div className="row-span-1 grid grid-cols-2 gap-6">
-                            <Link to="#" className="col-span-1">
+                            <Link to="#" className="col-span-1" data-aos="zoom-in-up" data-aos-offset="150" data-aos-duration="400">
                                 <div className="relative bg-[#e8ebed] rounded-[1.25rem] group hover:bg-[#00a181] hover:text-white transition-all duration-300 ease-in-out">
                                     <div className="flex flex-col p-6 gap-6">
                                         <div className="flex items-center justify-between">
@@ -76,7 +76,7 @@ const Services = () => {
                                     <div className="absolute inset-0 h-0 group-hover:h-[100%] bg-[#00a181] rounded-[1.25rem] transition-all duration-300 ease-in-out z-0"></div>
                                 </div>
                             </Link>
-                            <Link to="#" className="col-span-1">
+                            <Link to="#" className="col-span-1" data-aos="zoom-in-up" data-aos-offset="150" data-aos-duration="600">
                                 <div className="relative bg-[#e8ebed] rounded-[1.25rem] group hover:bg-[#00a181] hover:text-white transition-all duration-300 ease-in-out">
                                     <div className="flex flex-col p-6 gap-6">
                                         <div className="flex items-center justify-between">
