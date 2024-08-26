@@ -54,6 +54,8 @@ const MapWithMarker: React.FC = () => {
                             <MarkerF
                                 position={location}
                                 key={index}
+                                icon={`/images/Marker4.png`}
+
                             />
                         )
                     }

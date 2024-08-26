@@ -24,7 +24,10 @@ const ChargingNetwork = () => {
                                 </div>
                             </div>
                             <div className="col-span-1" data-aos="zoom-in-up" data-aos-duration="400">
-                                <MapWithMarker />
+                                <h2 className="font-semibold text-2xl my-4">Realtime Vidyutva Charging Locations.</h2>
+                                <div className="rounded-md overflow-hidden">
+                                    <MapWithMarker />
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -62,8 +65,8 @@ const ChargingNetwork = () => {
                                         <div >
                                             <h5 className="font-semibold text-2xl mb-4 ml-2">Available</h5>
                                             <ul className="list-disc flex flex-col gap-2 ml-6">
-                                                <li>Most reliable EV charging network in Odisha and Kolkata.</li>
-                                                <li>Fastest growing.</li>
+                                                <li>99% Availability of EV Chargers.</li>
+                                                <li>Instantly available, plug-and-play.</li>
                                                 <li>Available in odisha, india.</li>
                                             </ul>
                                         </div>

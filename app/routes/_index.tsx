@@ -75,15 +75,15 @@ export default function Index() {
       <Navbar />
       <Hero />
       <div className={`relative transition-all duration-500 ease-in-out ${bgColor} ${textColor}`}>
-        <div ref={homeAboutRef}>
-          <HomeAbout />
+        <div ref={whoWeAreRef}>
+          <WhoWeAre />
         </div>
         <Network />
         <Portfolio />
         <AppLayout />
         <Services />
-        <div ref={whoWeAreRef}>
-          <WhoWeAre />
+        <div ref={homeAboutRef}>
+          <HomeAbout />
         </div>
         <ChargingNetwork />
         <FAQ />

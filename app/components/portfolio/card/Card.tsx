@@ -25,8 +25,45 @@ const Card = ({ img, name, design1, design2, design3, connectivity1, connectivit
                 <div className="bottom">
                     <div className="left">
                         <div className="details ">
-                            <h1 className='font-semibold text-lg'>{name}</h1>
-                            <div className='text-3xl text-[#00a181] hover:text-[#5ad9b6]'><FaArrowAltCircleRight /></div>
+                            <div className='flex flex-col gap-2'>
+                                <div className='w-[100%] flex gap-16'>
+                                    <h1 className='font-semibold text-lg'>{name}</h1>
+                                    <div className='text-3xl text-[#00a181] hover:text-[#5ad9b6]'><FaArrowAltCircleRight /></div>
+                                </div>
+                                <div className='font-normal text-base flex items-center gap-3'><span>Compatible with :</span>
+                                    {
+                                        name === 'Vidyutva AC 3.3KW' ?
+                                            <div className='flex'>
+                                                <div className='h-10 w-10 overflow-hidden border border-[#00a181] rounded-full'>
+                                                    <img src="/images/CompanyLogo/Ather.png" alt="Loading..." />
+                                                </div>
+                                                <div className='h-10 w-10 overflow-hidden border border-[#00a181] rounded-full -ml-3'>
+                                                    <img src="/images/CompanyLogo/Hero.png" alt="Loading..." />
+                                                </div>
+                                                <div className='h-10 w-10 overflow-hidden border border-[#00a181] rounded-full -ml-3'>
+                                                    <img src="/images/CompanyLogo/Ola.png" alt="Loading..." />
+                                                </div>
+                                                <div className='h-10 w-10 overflow-hidden border border-[#00a181] rounded-full -ml-3'>
+                                                    <img src="/images/CompanyLogo/Tvs.png" alt="Loading..." />
+                                                </div>
+                                            </div> :
+                                            <div className='flex'>
+                                                <div className='h-10 w-10 overflow-hidden border border-[#00a181] rounded-full'>
+                                                    <img src="/images/CompanyLogo/Mg.png" alt="Loading..." />
+                                                </div>
+                                                <div className='h-10 w-10 overflow-hidden border border-[#00a181] rounded-full -ml-3'>
+                                                    <img src="/images/CompanyLogo/Citroen.png" alt="Loading..." />
+                                                </div>
+                                                <div className='h-10 w-10 overflow-hidden border border-[#00a181] rounded-full -ml-3'>
+                                                    <img src="/images/CompanyLogo/Hyundai.png" alt="Loading..." />
+                                                </div>
+                                                <div className='h-10 w-10 overflow-hidden border border-[#00a181] rounded-full -ml-3'>
+                                                    <img src="/images/CompanyLogo/Tata.png" alt="Loading..." />
+                                                </div>
+                                            </div>
+                                    }
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -18,7 +18,7 @@ const Services = () => {
                                         <div className="flex items-center justify-between">
                                             <h1 className="font-semibold text-lg z-10">White Label Software</h1>
                                         </div>
-                                        <div className="z-10"><p className="font-normal text-base ">Lunch your own cms and mobile app with your brand via vidyutva.</p></div>
+                                        <div className="z-10"><p className="font-normal text-base ">Launch your own cms and mobile app with your brand via vidyutva.</p></div>
                                         <div className="flex justify-end items-center z-10">
                                             <div className="bg-[#00a181] text-white rounded-full p-[12px] group-hover:bg-white group-hover:text-[#00a181]">
                                                 <div className="flex justify-center items-center">
@@ -80,10 +80,10 @@ const Services = () => {
                                 <div className="relative bg-[#e8ebed] rounded-[1.25rem] group hover:bg-[#00a181] hover:text-white transition-all duration-300 ease-in-out">
                                     <div className="flex flex-col p-6 gap-6">
                                         <div className="flex items-center justify-between">
-                                            <h1 className="font-semibold text-lg z-10">Pre-paid charger packs</h1>
+                                            <h1 className="font-semibold text-lg z-10">Universal Charging Packs</h1>
                                         </div>
                                         <div className="z-10">
-                                            <p className="font-normal text-base">Reward your customers and keep them moving with pre-paid EV charger credit valid nation-wide</p>
+                                            <p className="font-normal text-base">Empower your customers and keep them compatible with any charger across the nation through our Universal Adapter system.</p>
                                         </div>
                                         <div className="flex justify-end items-center z-10">
                                             <div className="bg-[#00a181] text-white rounded-full p-[12px] group-hover:bg-white group-hover:text-[#00a181]">

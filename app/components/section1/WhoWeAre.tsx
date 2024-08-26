@@ -4,7 +4,7 @@ const WhoWeAre = () => {
     const [active, setActive] = useState(false)
     return (
         <div className='transition-[background-color] duration-500 ease-in-out'>
-            <div className="px-[5%]">
+            <div className="px-[5%] pt-[5rem]">
                 <div className="flex flex-col items-center gap-[5rem]">
                     <div className="text-center w-[100%] max-w-[48rem]" data-aos="fade-up" data-aos-offset="150" data-aos-duration="400">
                         <h1 className="font-semibold text-5xl">Who is Vidyutva?</h1>
