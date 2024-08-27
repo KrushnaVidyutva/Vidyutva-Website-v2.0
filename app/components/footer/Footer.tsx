@@ -1,4 +1,5 @@
 import { Link } from "@remix-run/react";
+import { IoMdSend } from "react-icons/io";
 
 const menuData = [
   {
@@ -47,18 +48,19 @@ const footer = () => {
     <footer className='bg-[#ebecef] w-full h-full'>
       <div className='py-20 px-[5%] max-lg:px-[3%]'>
         <div className='flex max-lg:flex-col justify-between w-[100%] mb-20'>
-          <div className='w-[45%]'>
+          <div className='w-[45%] max-sm:w-[100%]'>
             <h1 className='text-[#00a181] font-semibold text-[1.75rem]'>Join our newsletter</h1>
-            <p className='text-sm text-[#1d344f]'>Subscribe to stay up-to-date on all the latest from Vidyutva.</p>
+            <p className='text-sm text-[#1d344f] max-sm:w-[80%]'>Subscribe to stay up-to-date on all the latest from Vidyutva.</p>
           </div>
           <div className="grid grid-cols-4 gap-4 max-lg:w-[100%] w-[50%] max-lg:mt-4">
             <input
               type="text"
-              className="col-span-3 max-[500px]:col-span-2 bg-[#ebecef] border border-solid border-[#1d344f] rounded-[.75rem] py-[.8rem] px-[.75rem] text-base focus:border-white focus:outline-none"
+              className="col-span-3 max-[500px]:col-span-3 bg-[#ebecef] border border-solid border-[#1d344f] rounded-[.75rem] py-[.8rem] px-[.75rem] text-base focus:border-white focus:outline-none"
               placeholder="Enter your email"
             />
             {/* <br className="hidden max-[500px]:block" /> */}
-            <button className="col-span-1 max-[500px]:col-span-2 bg-[#00a181] text-white rounded-full py-[.5rem] px-4 text-base   hover:bg-[#009085] transition-all duration-500 ease-in-out bx-shadow"> Subscribe</button>
+            <button className="col-span-1 max-[500px]:col-span-1 bg-[#00a181] text-white rounded-full py-[.5rem] px-4 text-base   hover:bg-[#009085] transition-all duration-500 ease-in-out bx-shadow max-sm:text-sm max-sm:px-2 max-sm:py-1 max-[400px]:hidden">Subscribe</button>
+            <button className="col-span-1 max-[500px]:col-span-1 bg-[#00a181] text-white rounded-full py-[.5rem] px-4 text-base   hover:bg-[#009085] transition-all duration-500 ease-in-out bx-shadow max-[400px]:flex justify-center items-center  hidden max-[400px]:block"><IoMdSend /></button>
             <p className="col-span-4 text-xs text-[#1d344f]">By subscribing you agree to with our <a href="#" className="underline">Privacy Policy</a></p>
           </div>
         </div>

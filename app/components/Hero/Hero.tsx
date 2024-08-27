@@ -5,9 +5,9 @@ const Hero = () => {
         <div className="bg-img">
             <div className="min-[1080px]:py-[9rem] max-[1080px]:pt-[9rem] max-[1080px]:pb-[2rem] min-[1080px]:pr-[5%] grid min-[1080px]:grid-cols-3 max-[1080px]:grid-row-2 gap-[4rem] ">
                 <div className="col-span-2 bg-white min-[1080px]:min-w-[45rem] min-[1080px]:w-[50%] max-[1080px]:w-[100%] px-[3rem] py-[4rem] flex-col min-[1080px]:rounded-tr-[1.5rem] min-[1080px]:rounded-br-[1.5rem] grid gap-8">
-                    <h1 className="font-semibold text-6xl ">India's  <br />most reliable EV<br />charging platform</h1>
+                    <h1 className="font-semibold text-6xl max-sm:text-5xl">India's  <br />most reliable EV<br />charging platform</h1>
                     <div className="w-[100%] max-w-[35rem] ml-0">
-                        <p className="text-xl mb-0">
+                        <p className="text-xl mb-0 max-sm:text-lg">
                             We make hosting and managing chargers easy for organisations and destinations, and partner with fleet managers, vehicle manufacturers and hire-car providers to keep drivers moving.
                         </p>
                     </div>
@@ -25,7 +25,7 @@ const Hero = () => {
                     </div>
                 </div>
 
-                <div data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600" className="col-span-1 min-[1080px]:relative max-[1080px]:flex max-[1080px]:justify-center max-sm:items-center max-[1080px]:px-[5rem]">
+                <div data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600" className="col-span-1 min-[1080px]:relative max-[1080px]:flex max-[1080px]:justify-center max-sm:items-center max-[1080px]:px-[5rem] max-sm:px-4">
                     <div className=" min-[1080px]:absolute min-[1080px]:-bottom-24 rounded-[2rem] backdrop-blur-[5px] bg-[#f0f0f0cc] p-4 flex items-center flex-col gap-3">
                         <div className="pl-4 w-[100%]">
                             <div className="text-xl">I want to...</div>

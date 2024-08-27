@@ -7,8 +7,8 @@ const WhoWeAre = () => {
             <div className="px-[5%] pt-[5rem]">
                 <div className="flex flex-col items-center gap-[5rem]">
                     <div className="text-center w-[100%] max-w-[48rem]" data-aos="fade-up" data-aos-offset="150" data-aos-duration="400">
-                        <h1 className="font-semibold text-5xl">Who is Vidyutva?</h1>
-                        <p className="pt-[1.5rem] text-xl">We’re India’s most reliable and advanced EV charging network. We’re dedicated to making charging simple, affordable, and fast for everyone—because easier charging means more EVs on the road, and that’s a great step towards a greener future.</p>
+                        <h1 className="font-semibold text-5xl max-sm:text-4xl">Who is Vidyutva?</h1>
+                        <p className="pt-[1.5rem] text-xl max-sm:text-base">We’re India’s most reliable and advanced EV charging network. We’re dedicated to making charging simple, affordable, and fast for everyone—because easier charging means more EVs on the road, and that’s a great step towards a greener future.</p>
                     </div>
                     <div className="relative w-[100%] rounded-3xl overflow-hidden " onClick={() => setActive(true)}>
                         <img src="/images/thumbnail.png" alt="Loading..." className={`w-[100%] h-[100%] absolute top-0 left-0 ${active ? "-z-40" : " z-10"}`} />

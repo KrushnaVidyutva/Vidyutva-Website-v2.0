@@ -6,12 +6,12 @@ const Services = () => {
             <div className="min-[945px]:grid min-[945px]:grid-cols-2 max-[945px]:flex max-[945px]:flex-col gap-10 items-start">
                 <div className="min-[945px]:col-span-1">
                     <h2 className="font-bold text-base">Services</h2>
-                    <h1 className="pt-4 font-semibold text-5xl capitalize">The reliable and first charging solution</h1>
+                    <h1 className="pt-4 font-semibold text-5xl capitalize max-sm:text-4xl">The reliable and first charging solution</h1>
                 </div>
                 <div className="min-[945px]:col-span-1  flex flex-col gap-8">
-                    <p className="text-lg text-[#2f3433]">Vidyuyva works with companies and government agencies across India to provide EV charger and vehicle management solutions, and to keep staff and customers charged.</p>
-                    <div className="grid grid-rows-2 ">
-                        <div className="row-span-1 grid grid-cols-2 gap-6">
+                    <p className="text-lg text-[#2f3433] max-sm:text-base">Vidyuyva works with companies and government agencies across India to provide EV charger and vehicle management solutions, and to keep staff and customers charged.</p>
+                    <div className="grid grid-rows-2 max-sm:grid-rows-1">
+                        <div className="row-span-1 grid grid-cols-2 gap-6 max-sm:grid-cols-1">
                             <Link to="#" className="col-span-1" data-aos="zoom-in-up" data-aos-offset="150" data-aos-duration="400">
                                 <div className="relative bg-[#e8ebed] rounded-[1.25rem] group hover:text-white transition-all duration-300 ease-in-out">
                                     <div className="flex flex-col p-6 gap-6">
@@ -53,7 +53,7 @@ const Services = () => {
                                 </div>
                             </Link>
                         </div>
-                        <div className="row-span-1 grid grid-cols-2 gap-6">
+                        <div className="row-span-1 grid grid-cols-2 gap-6 max-sm:grid-cols-1">
                             <Link to="#" className="col-span-1" data-aos="zoom-in-up" data-aos-offset="150" data-aos-duration="400">
                                 <div className="relative bg-[#e8ebed] rounded-[1.25rem] group hover:bg-[#00a181] hover:text-white transition-all duration-300 ease-in-out">
                                     <div className="flex flex-col p-6 gap-6">
