@@ -1,9 +1,30 @@
 import { Link } from '@remix-run/react'
 import SmallScreenNav from './SmallScreenNav'
+import { useEffect, useState } from 'react';
 const Navbar = () => {
+
+    const [fix, setFix] = useState(false);
+
+
+    useEffect(() => {
+        const setFixed = () => {
+            if (window.scrollY >= 50) {
+                setFix(true);
+            } else {
+                setFix(false);
+            }
+        };
+
+        window.addEventListener('scroll', setFixed);
+
+        return () => {
+            window.removeEventListener('scroll', setFixed);
+        };
+    }, []);
+
     return (
-        <>
-            <nav className="fixed top-0 left-0 bg-white rounded-bl-[20px] rounded-br-[20px] min-h-[5.5rem] w-[100%] flex items-center justify-between px-[5%] z-40 max-[840px]:hidden">
+        <div>
+            <nav className={`bg-white rounded-bl-[20px] rounded-br-[20px] min-h-[5.5rem] w-[100%] flex items-center justify-between px-[5%] z-40 max-[840px]:hidden ${fix ? `fixed top-0 left-0 w-full xl:shadow-lg z-40` : ``} transition-all duration-500 ease-in-out`}>
                 <Link to={"/"}>
                     <img src="/images/Logo/Vidyutvalogo.png" alt="Loading...." className="h-[100px] w-[110px]" />
                 </Link>
@@ -15,7 +36,7 @@ const Navbar = () => {
                     <Link to={"#product"} className="px-[1rem] py-[.5rem] font-medium font-sans hover:border-b hover:border-[#00a181] hover:text-[#00a181] transition-all duration-300 ease-out group">
                         products
                     </Link>
-                    <Link to={"#about"} className="px-[1rem] py-[.5rem] font-medium font-sans hover:border-b hover:border-[#00a181] hover:text-[#00a181] transition-all duration-300 ease-out group">
+                    <Link to={"/aboutus"} className="px-[1rem] py-[.5rem] font-medium font-sans hover:border-b hover:border-[#00a181] hover:text-[#00a181] transition-all duration-300 ease-out group">
                         about us
                     </Link>
                 </div>
@@ -27,7 +48,7 @@ const Navbar = () => {
                 </div>
             </nav>
             <SmallScreenNav />
-        </>
+        </div>
     )
 }
 
