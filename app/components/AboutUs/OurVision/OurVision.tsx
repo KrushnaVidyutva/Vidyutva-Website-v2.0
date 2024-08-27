@@ -34,7 +34,7 @@ const OurVision = () => {
                                 name='Aritra Ghosh'
                                 img='/images/kazam/Our_Vision/founder01.jpg'
                                 designation1='Founder'
-                                designation2='CEO'
+                                designation2='MD & CEO'
                             />
                         </div>
                         <div className='col-span-1'>
@@ -42,7 +42,7 @@ const OurVision = () => {
                                 name='Biswojit Patsahani'
                                 img='/images/kazam/Our_Vision/founder02.jpg'
                                 designation1='Co-Founder'
-                                designation2='CEO'
+                                designation2='COO'
                             />
                         </div>
                     </div>

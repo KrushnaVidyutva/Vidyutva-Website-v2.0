@@ -41,8 +41,8 @@ const FAQ = () => {
                         answer="There are lots of reasons to install EV chargers at your premises. Installing public EV charging has been shown to increase customer loyalty, grow revenue, and attract new customers. It’s also a great way to demonstrate your sustainability values."
                     />
                     <Questions
-                        question="How do charging subscriptions and prepaid charger packs work?"
-                        answer="With a Vidyutva subscription or prepaid charger pack you can provide your customers or staff with access to the largest public EV charging network in India. Your chosen drivers will be able to charge their car at all public chargers on the Vidyutva network with absolutely no cost to them."
+                        question="How do charging subscriptions work?"
+                        answer="With a Vidyutva subscription you can provide your customers or staff with access to the largest public EV charging network in India. Your chosen drivers will be able to charge their car at all public chargers on the Vidyutva network with absolutely no cost to them."
                     />
                     <div className="border-b border-green-50"></div>
                 </div>
