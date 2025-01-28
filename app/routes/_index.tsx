@@ -14,6 +14,7 @@ import WhoWeAre from "~/components/section1/WhoWeAre";
 import Services from "~/components/services/Services";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Offerings from "~/components/offerings/Offerings";
 
 export const meta: MetaFunction = () => {
   return [
@@ -73,6 +74,7 @@ export default function Index() {
   return (
     <>
       <Navbar />
+      <Offerings />
       <Hero />
       <div className={`relative transition-all duration-500 ease-in-out ${bgColor} ${textColor}`}>
         <div ref={whoWeAreRef}>
